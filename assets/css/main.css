@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+/*Encabezado de la Página*/
+.encabezado {
+  background-color: #F79F81;
+  color: white;
+  padding: 3%;
+}
+.titulo {
+  font-size: 2.5em;
+}
+.pequeña-frase {
+  font-weight: lighter;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+}
+.titulo, .pequeña-frase {
+  text-align: right;
+  margin-right: 5%;
+}
+/*Imagen de la primera sección*/
+.panda1, .panda2, .panda7 {
+  width: 100%; /*Cómo cortar imagenes en CSS (sin cortarlas como tal)???*/
+  max-height: 30em;
+  min-width: 20%;
+  background-color: #F79F81;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/*Parrafo de la segunda sección*/
+.cuadro1, .cuadro3 {
+  background-color: #81F781;
+}
+.subtitulo {
+  margin-top: 3em;
+}
+.subtitulo, .parrafo1 {
+  max-width: 35%;
+  background-color: #F79F81;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  margin-left: 33%;
+}
+.parrafo1 {
+  margin-bottom: 5em;
+}
+/*Imagenes y texto de la tercera sección*/
+.titulo2 {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.panda3 {
+  background-color: white;
+  padding: 1em;
+  margin-left: 15%;
+}
+.panda4, .panda5, .panda6 {
+  padding: 1em;
+  background-color: white;
+  margin-left: 3.5em;
+}
+.panda3, .panda4, .panda5, .panda6 {
+  margin-bottom: 10%; /*Cómo hacer que las fotos de los pandas queden perfectamente alineadas cuando está al tamaño mínimo??*/
+}
+/*Footer*/
+.cierre {
+  background-color: #F79F81;
+  padding-bottom: 2em;
+}
+.ultimaFrase {
+  color: white;
+  text-align: right;
+  margin-top: 1em;
+  margin-right: 1%;
+}
